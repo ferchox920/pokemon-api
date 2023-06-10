@@ -2,7 +2,7 @@ import { Route, createBrowserRouter, createRoutesFromChildren } from 'react-rout
 import { Navigation } from './assets/components/Navigation';
 import { HomePage, PokemonPage, SearchPage } from './pages';
 
-const AppProvider = createBrowserRouter(
+const AppRouter = createBrowserRouter(
   createRoutesFromChildren(
     <Route path="/" element={<Navigation />}>
       <Route index element={<HomePage />} />
@@ -12,4 +12,4 @@ const AppProvider = createBrowserRouter(
   )
 );
 
-export {  AppProvider };
+export {  AppRouter };
