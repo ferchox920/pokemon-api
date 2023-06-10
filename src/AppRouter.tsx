@@ -1,5 +1,5 @@
 import { Route, createBrowserRouter, createRoutesFromChildren } from 'react-router-dom';
-import { Navigation } from './assets/components/Navigation';
+import { Navigation } from './components/Navigation';
 import { HomePage, PokemonPage, SearchPage } from './pages';
 
 const AppRouter = createBrowserRouter(
