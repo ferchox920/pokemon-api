@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import  { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { CardPokemon } from '../components';
 import { PokemonContext } from '../context/PokemonContext';
