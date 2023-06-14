@@ -1,0 +1,44 @@
+//button load more
+.container-btn-load-more{
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.btn-load-more{
+	border: none;
+	padding: 15px 40px;
+	font-family: inherit;
+	background-color: var(--color-primary);
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btn-load-more:hover{
+	background-color: var(--color-primary-hover);
+	color: #000;
+}
+
+//Other buttons
+
+.container-filter {
+	display: flex;
+}
+
+.icon-filter {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.icon-filter .icon {
+	width: 30px;
+	height: 30px;
+	stroke: #555;
+}

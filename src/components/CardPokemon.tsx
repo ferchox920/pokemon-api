@@ -5,7 +5,8 @@ interface Pokemon {
   id: number;
   name: string;
   sprites: {
-    other: {
+    front_default:string,
+    other: { 
       dream_world: {
         front_default: string;
       };
@@ -27,7 +28,7 @@ export const CardPokemon: React.FC<CardPokemonProps> = ({ pokemon }) => {
     <Link to={`/pokemon/${pokemon.id}`} className='card-pokemon'>
       <div className='card-img'>
         <img
-          src={pokemon.sprites.other.dream_world.front_default}
+          src={pokemon.sprites.other?.dream_world?.front_default || pokemon.sprites.front_default}
           alt={`Pokemon ${pokemon.name}`}
         />
       </div>
