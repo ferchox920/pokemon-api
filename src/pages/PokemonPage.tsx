@@ -80,7 +80,7 @@ export const PokemonPage = () => {
                 </div>
                 <div className='group-info'>
                   <p>Peso</p>
-                  <span>{pokemon?.weight}KG</span>
+                  <span>{pokemon && pokemon.weight ? pokemon.weight / 10 : 0}KG</span>
                 </div>
               </div>
             </div>
