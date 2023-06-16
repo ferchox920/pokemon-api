@@ -1,44 +1,63 @@
 //button load more
-.container-btn-load-more{
-	display: flex;
-	justify-content: center;
+.container-btn-load-more {
+  display: flex;
+  justify-content: center;
 
-	margin-bottom: 20px;
-	margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.btn-load-more{
+.btn-search {
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-family: inherit;
+  color: #fff;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-search:hover {
+  background-color: var(--color-primary-hover);
+  color: #000;
+}
+
+.btn-load-more {
+  border: none;
+  padding: 15px 40px;
+  font-family: inherit;
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-load-more:hover {
+  background-color: var(--color-primary-hover);
+  color: #000;
+}
+
+.btn-about {
 	border: none;
-	padding: 15px 40px;
+	outline: none;
+	border-radius: 25px;
+	padding: 15px 30px;
 	font-family: inherit;
-	background-color: var(--color-primary);
 	color: #fff;
-	border-radius: 10px;
+	background-color: var(--color-primary);
 	cursor: pointer;
-}
-
-.btn-load-more:hover{
+	font-weight: 500;
+	letter-spacing: 2px;
+	transition: background-color 0.3s, color 0.3s;
+	text-decoration: none;
+  }
+  
+  .btn-about:hover {
 	background-color: var(--color-primary-hover);
 	color: #000;
-}
-
-//Other buttons
-
-.container-filter {
-	display: flex;
-}
-
-.icon-filter {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-
-	margin-bottom: 20px;
-	cursor: pointer;
-}
-
-.icon-filter .icon {
-	width: 30px;
-	height: 30px;
-	stroke: #555;
-}
+  }
+  

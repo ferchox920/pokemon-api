@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./scss/index.scss";
-import { RouterProvider } from "react-router-dom";
+import {  RouterProvider } from "react-router-dom";
 import { AppRouter } from "./AppRouter.tsx";
 import PokemonProvider from "./context/PokemonProvider.tsx";
 
